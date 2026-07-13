@@ -1,0 +1,6 @@
+# Only allow POST requests from Paystack's servers
+# Block direct browser access
+<LimitExcept POST>
+    Order deny,allow
+    Deny from all
+</LimitExcept>

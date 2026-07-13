@@ -1,0 +1,84 @@
+# ============================================================
+#  UKLOOLE — Apache Configuration
+#  cPanel / PHP-FPM compatible
+# ============================================================
+
+# ── Directory listing off ───────────────────────────────────
+Options -Indexes +FollowSymLinks
+
+# ── Rewrite engine ──────────────────────────────────────────
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Block direct access to includes folder
+    RewriteRule ^includes/ - [F,L]
+
+    # Redirect any request that still has .php in the address bar to the clean
+    # URL, so links like /job-details.php?id=5 become /job-details?id=5.
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\s/+([^.\s?]+)\.php(\?[^\s]*)?\s
+    RewriteRule ^ /%1%2 [R=301,L]
+
+    # Clean URLs: /job-details → job-details.php, /admin/jobs → admin/jobs.php, etc.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php [L,QSA]
+</IfModule>
+
+# ── Block sensitive files ───────────────────────────────────
+<FilesMatch "\.(sql|log|bak|env|md|txt|ini)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Block direct access to config and setup scripts
+<FilesMatch "^(config|setup)\.(php|sql)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# ── Cache static assets ─────────────────────────────────────
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot)$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+</IfModule>
+
+# ── Compression (speeds up page load) ───────────────────────
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ── Security headers ────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# ── PHP upload limits (mod_php only) ────────────────────────
+# NOTE: Remove these two lines if your host uses PHP-FPM or CGI.
+# If you get a 500 error, comment them out first.
+# php_value upload_max_filesize 10M
+# php_value post_max_size 12M
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

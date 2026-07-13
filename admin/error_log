@@ -1,0 +1,17 @@
+[01-Jul-2026 10:01:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/ukloolec/public_html/admin/blog.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/admin/blog.php on line 27
+[01-Jul-2026 10:01:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/ukloolec/public_html/admin/blog.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/admin/blog.php on line 27
+[01-Jul-2026 10:06:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in /home/ukloolec/public_html/admin/blog.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/admin/blog.php on line 27
+[01-Jul-2026 10:06:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'h' for key 'blog_posts.slug' in /home/ukloolec/public_html/admin/blog.php:48
+Stack trace:
+#0 /home/ukloolec/public_html/admin/blog.php(48): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ukloolec/public_html/admin/blog.php on line 48

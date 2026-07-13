@@ -1,0 +1,223 @@
+[09-Jun-2026 09:18:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'ukloolec_mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'ukloolec_mainpg...', 'your_db_passwor...', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:19:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'ukloolec_mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'ukloolec_mainpg...', 'your_db_passwor...', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:24:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:28:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:28:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:28:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:28:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:35:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:35:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:35:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:36:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:36:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:36:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:37:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:50:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:50:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'mainpg_user'@'localhost' (using password: YES) in /home/ukloolec/public_html/includes/config.php:21
+Stack trace:
+#0 /home/ukloolec/public_html/includes/config.php(21): PDO->__construct('mysql:host=loca...', 'mainpg_user', 'Admin4ukloole', Array)
+#1 /home/ukloolec/public_html/index.php(19): db()
+#2 {main}
+  thrown in /home/ukloolec/public_html/includes/config.php on line 21
+[09-Jun-2026 09:53:22 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/ukloolec/public_html/services.php on line 24
+[09-Jun-2026 09:54:48 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/ukloolec/public_html/services.php on line 24
+[09-Jun-2026 09:59:04 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/ukloolec/public_html/services.php on line 24
+[09-Jun-2026 10:02:28 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/ukloolec/public_html/services.php on line 24
+[09-Jun-2026 10:03:38 UTC] PHP Fatal error:  Assignments can only happen to writable values in /home/ukloolec/public_html/services.php on line 24
+[30-Jun-2026 12:57:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 12:58:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 12:59:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:22:13 UTC] PHP Warning:  require_once(/home/ukloolec/includes/config.php): Failed to open stream: No such file or directory in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:22:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ukloolec/includes/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/ukloolec/public_html/tools.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:22:16 UTC] PHP Warning:  require_once(/home/ukloolec/includes/config.php): Failed to open stream: No such file or directory in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:22:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ukloolec/includes/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/ukloolec/public_html/tools.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:22:31 UTC] PHP Warning:  require_once(/home/ukloolec/includes/config.php): Failed to open stream: No such file or directory in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:22:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ukloolec/includes/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/ukloolec/public_html/tools.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:28:22 UTC] PHP Warning:  require_once(/home/ukloolec/includes/config.php): Failed to open stream: No such file or directory in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:28:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ukloolec/includes/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/ukloolec/public_html/tools.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 3
+[30-Jun-2026 14:29:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:30:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:46:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:49:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:51:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:52:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 14:54:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:102
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 102
+[30-Jun-2026 15:01:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 15:13:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 15:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 21:25:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 23:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 23:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 23:39:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[30-Jun-2026 23:39:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[01-Jul-2026 00:09:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[01-Jul-2026 00:26:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[01-Jul-2026 00:44:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_strtoupper() in /home/ukloolec/public_html/tools.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/tools.php on line 108
+[01-Jul-2026 14:22:27 UTC] PHP Warning:  require_once(/home/ukloolec/includes/config.php): Failed to open stream: No such file or directory in /home/ukloolec/public_html/blog.php on line 3
+[01-Jul-2026 14:22:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ukloolec/includes/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/ukloolec/public_html/blog.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/blog.php on line 3
+[01-Jul-2026 14:22:33 UTC] PHP Warning:  require_once(/home/ukloolec/includes/config.php): Failed to open stream: No such file or directory in /home/ukloolec/public_html/blog.php on line 3
+[01-Jul-2026 14:22:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ukloolec/includes/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/ukloolec/public_html/blog.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ukloolec/public_html/blog.php on line 3
